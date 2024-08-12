@@ -10,4 +10,10 @@
 
 ### 우린 낭만이란 배를 타고 떠나갈 거야
 
-[바로가기▶️](https://github.com/lurgi/woowa-writing/blob/temp/level2.md)
+[바로가기▶️](https://github.com/lurgi/woowa-writing/blob/main/level2.md)
+
+## 2️⃣ Level 3
+
+### 용서할 줄 안다는 것
+
+[바로가기▶️](https://github.com/lurgi/woowa-writing/blob/main/level3.md)
