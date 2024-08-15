@@ -12,7 +12,7 @@
 
 [바로가기▶️](https://github.com/lurgi/woowa-writing/blob/main/level2.md)
 
-## 2️⃣ Level 3
+## 3️⃣ Level 3
 
 ### 용서할 줄 안다는 것
 
