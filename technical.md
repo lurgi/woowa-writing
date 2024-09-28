@@ -176,7 +176,8 @@ Next.js는 Vercel에서 개발한 React 기반의 풀스택 프레임워크로, 
 - **이미지 최적화 및 성능 기능**
   Next.js는 `next/image` 컴포넌트를 통해 이미지 최적화 기능을 제공하여 웹사이트 성능을 향상시킵니다. 이미지 리사이징, 포맷 변경(WebP 등), 지연 로딩(lazy loading) 등의 기능을 사용하여 웹페이지 로딩 속도를 크게 개선할 수 있습니다. 또한, 자동 캐싱 및 코드 분할을 통해 성능 최적화에 중점을 둡니다.
   [Optimizing: Images](https://nextjs.org/docs/app/building-your-application/optimizing/images)
-- SEO 설정 방법
+
+- **SEO 설정 방법**
   Next.js 13의 App Router에서는 메타데이터 API를 통해 SEO 관련 설정을 할 수 있습니다. 이는 정적 및 동적 메타데이터 모두를 지원합니다.
 
   ```tsx
@@ -438,6 +439,7 @@ SWC와 ESbuild의 차이는 미미합니다. SWC는 Rust로 작성되었고, ESb
   브라우저는 Vite가 제공한 ESM 모듈을 받아들여, 필요할 때마다 **import 구문**을 통해 모듈을 **HTTP 요청**으로 가져옵니다. (**Native ESM을 채택**)
   이 과정에서 Vite는 브라우저가 요청한 모듈만 트랜스파일링해서 제공하므로, 전체 애플리케이션을 미리 번들링할 필요가 없습니다. 이것이 **Vite가 빠르게 동작하는 이유** 중 하나입니다.
 - Webpack은 Vite와 다르게 ‘번들러’입니다. 개발서버로 실행할 때에도 프로젝트에 관련된 모든 모듈을 번들링하여 브라우저에 제공하는 방식을 취합니다.
+- 현재 Next.js는 Turbo라는 자체 모듈 번들러를 탑재중입니다. (24.09 기준 베타버전) [Getting started Turbo](https://turbo.build/pack/docs)
 
 **결론**
 
